@@ -1,33 +1,88 @@
-.App {
-  text-align: center;
-}
+body{
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  height: 100vh;
+  margin: 0;
+  background-color: black;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.nav:hover {
+    animation: shake 2s;
+    animation-iteration-count: infinite;
   }
-  to {
-    transform: rotate(360deg);
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-5deg); }
+    20% { transform: translate(-3px, 0px) rotate(5deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(5deg); }
+    50% { transform: translate(-1px, 2px) rotate(-5deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-5deg); }
+    80% { transform: translate(-1px, -1px) rotate(5deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-5deg); }
   }
-}
+  .link{
+    color: gray;
+    transition: ease-out;
+    transition-duration: 1s;
+  }
+  .link:hover{
+    color: white;
+    transition: ease-out;
+    transition-duration: 0s;
+    cursor: pointer;
+  }
+  .button{
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #ff9450;
+    transition: ease-in;
+    transition-duration: 1s;
+  }
+  .button:hover{
+    color: #ff9450;
+    border: solid 1px gray;
+    transition: ease-in;
+    transition-duration: .5s;
+  }
+  .projects {
+    grid-gap: 10px;
+    height: 80vh;
+  }
+  .projectInfo{
+    text-align: center;
+    position: absolute;
+    opacity: 1;
+    display: block;
+    padding-top: 2em;
+    width: 100%;
+    height: 95%;
+    color: white;
+  }
+  .projectInfo:hover{
+    opacity: 1;
+  }
+  .project1{
+    position: relative;
+    background-image: url();
+    display:inline-block;
+    margin: 0% 2%;
+    border: solid ;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 280px;
+    width: 400px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .project1:hover{
+    background-image: url();
+    opacity: .7;
+    cursor: "pointer";
+  }
