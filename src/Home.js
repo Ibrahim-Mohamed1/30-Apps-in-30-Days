@@ -31,55 +31,365 @@ const Home = () => {
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06", marginRight: "3%" }}><Link className="link" style={{ textDecoration: "none" }} to="/contact">Contact</Link></h3>
             </div>
             <br />
-            <h2 style={{ color: 'white', textAlign:"center" }}>30 apps in 30 days</h2>
+            <h1 style={{ color: 'white', textAlign: "center" }}>30 apps in 30 days</h1>
             <div className="projects">
-                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
-                    <div className='middle'>
-                        <a href="http://cuisine-hunter.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Cuisine Hunter</h1>
-                                <h4>An app created with React.js to help users find restuarants in Utah serving desired cuisines.
+                <div className="project1" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle1'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>1. Homepage</h1>
+                                <h4>
+                                    Homepage for this AWESOME challenge!
                                 </h4>
-                                <p style={{color:"lime", padding:"5%", margin: 0}}>JavaScript, React, Axios, HTML, CSS, & JSX</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project2" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle'>
-                        <a href="http://crypto-dash.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1.5em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Crypto Dash</h1>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>2. Coming Soon...</h1>
                                 <h4>
-                                    An app created with React.js to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
                                 </h4>
-                                <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB, Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project3" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle'>
-                        <a href="http://crypto-dash.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1.5em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Crypto Dash</h1>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>3. Coming Soon...</h1>
                                 <h4>
-                                    An app created with React.js to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
                                 </h4>
-                                <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB, Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div className="project1" style={{ cursor:"pointer", backgroundSize: "cover", backgroundRepeat:"no-repeat", height: "vh"}}>
+                <div className="project4" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle'>
-                        <a href="http://crypto-dash.surge.sh/" target="_blank" rel="noopener noreferrer">
-                            <div className='projectInfo' style={{marginTop:"-1.5em"}}>
-                                <h1 className="nav" style={{color:"#ff9450", padding:"2%"}}>Crypto Dash</h1>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>4. Coming Soon...</h1>
                                 <h4>
-                                    An app created with React.js to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
                                 </h4>
-                                <p style={{color:"lime", padding:"5%", margin: 0}}>React, JavaScript, MongoDB, Mongoose, Axios, Node.js, JSX, HTML, & CSS</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project5" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>5. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project6" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>6. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project7" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>7. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project8" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>8. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project9" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>9. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project10" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>10. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project11" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>11. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project12" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>12. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project13" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>13. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project14" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>14. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project15" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>15. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project16" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>16. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project17" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>17. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project18" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>18. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project19" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>19. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project20" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>20. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project21" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>21. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project22" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>22. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project23" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>23. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project24" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>24. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project25" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>25. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project26" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>26. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project27" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>27. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project28" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>28. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project29" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>29. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div className="project30" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
+                    <div className='middle'>
+                        <a href="/">
+                            <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
+                                <h1 className="nav" style={{ color: "#ff9450", padding: "2%" }}>30. Coming Soon...</h1>
+                                <h4>
+                                </h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
                             </div>
                         </a>
                     </div>

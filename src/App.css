@@ -6,7 +6,7 @@ body{
   height: 100vh;
   margin: 0;
   background-color: black;
-
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .nav:hover {
     animation: shake 2s;
@@ -51,6 +51,7 @@ body{
   }
   .projects {
     grid-gap: 10px;
+    text-align: center;
     height: 80vh;
   }
   .projectInfo{
@@ -66,9 +67,32 @@ body{
   .projectInfo:hover{
     opacity: 1;
   }
-  .project1{
+  .middle{
+    /* opacity: 0; */
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    color: white;
+  }
+  .middle:hover{
+    opacity: 1;
+  }
+  .middle1{
+    opacity: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 95%;
+    transition: .5s ease;
+    color: white;
+  }
+  .middle1:hover{
+    opacity: 1;
+  }
+  .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project9, .project10, .project11, .project12, .project13, .project14, .project15, .project16, .project17, .project18, .project19, .project20, .project21, .project22, .project23, .project24, .project25, .project26, .project27, .project28, .project29, .project30{
     position: relative;
-    background-image: url();
     display:inline-block;
     margin: 0% 2%;
     border: solid ;
@@ -81,8 +105,139 @@ body{
     transition: .5s ease;
     backface-visibility: hidden;
   }
-  .project1:hover{
-    background-image: url();
+  .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover, .project7:hover, .project8:hover, .project9:hover, .project10:hover, .project11:hover, .project12:hover, .project13:hover, .project14:hover, .project15:hover, .project16:hover, .project17:hover, .project18:hover, .project19:hover, .project20:hover, .project21:hover, .project22:hover, .project23:hover, .project24:hover, .project25:hover, .project26:hover, .project27:hover, .project28:hover, .project29:hover, .project30:hover{
+    background-image: url(./default.jpg);
     opacity: .7;
     cursor: "pointer";
   }
+  .project1{
+    background-image: url(./homepage.png);
+  }
+  .project2{
+    background-image: url();
+  }
+  .project3{
+    background-image: url();
+  }
+  .project4{
+    background-image: url();
+  }
+  .project5{
+    background-image: url();
+  }
+  .project6{
+    background-image: url();
+  }
+  .project7{
+    background-image: url();
+  }
+  .project8{
+    background-image: url();
+  }
+  .project9{
+    background-image: url();
+  }
+  .project10{
+    background-image: url();
+  }
+  .project11{
+    background-image: url();
+  }
+  .project12{
+    background-image: url();
+  }
+  .project13{
+    background-image: url();
+  }
+  .project14{
+    background-image: url();
+  }
+  .project15{
+    background-image: url();
+  }
+  .project16{
+    background-image: url();
+  }
+  .project17{
+    background-image: url();
+  }
+  .project18{
+    background-image: url();
+  }
+  .project19{
+    background-image: url();
+  }
+  .project20{
+    background-image: url();
+  }
+  .project21{
+    background-image: url();
+  }
+  .project22{
+    background-image: url();
+  }
+  .project23{
+    background-image: url();
+  }
+  .project24{
+    background-image: url();
+  }
+  .project25{
+    background-image: url();
+  }
+  .project26{
+    background-image: url();
+  }
+  .project27{
+    background-image: url();
+  }
+  .project28{
+    background-image: url();
+  }
+  .project29{
+    background-image: url();
+  }
+  .project30{
+    background-image: url();
+  }
+
+  @media (max-width: 1260px){
+  .projects{
+    margin-left: 0;
+    margin-right: 0;
+  }
+} 
+@media (max-width: 882px){
+  .projects{
+    margin-top: 2em;
+  }
+  .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project9, .project10, .project11, .project12, .project13, .project14, .project15, .project16, .project17, .project18, .project19, .project20, .project21, .project22, .project23, .project24, .project25, .project26, .project27, .project28, .project29, .project30{
+    height: 230px;
+    width: 300px;
+  }
+} 
+@media (max-width: 665px){
+  .projects{
+    margin-top: 2em;
+  }
+  .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project9, .project10, .project11, .project12, .project13, .project14, .project15, .project16, .project17, .project18, .project19, .project20, .project21, .project22, .project23, .project24, .project25, .project26, .project27, .project28, .project29, .project30{
+    height: 300px;
+    width: 380px;
+  }
+} 
+@media (max-width: 520px){
+  
+  .projects{
+    margin-top: 2em;
+  }
+  .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8, .project9, .project10, .project11, .project12, .project13, .project14, .project15, .project16, .project17, .project18, .project19, .project20, .project21, .project22, .project23, .project24, .project25, .project26, .project27, .project28, .project29, .project30{
+    margin-top: 1em;
+    height: 250px;
+    width: 300px;
+  }
+} 
+@media (min-height: 820px){
+  .projects{
+    margin-top: 4em;
+  }
+} 
