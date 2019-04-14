@@ -31,7 +31,7 @@ const Home = () => {
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06", marginRight: "3%" }}><Link className="link" style={{ textDecoration: "none" }} to="/contact">Contact</Link></h3>
             </div>
             <br />
-            <h1 style={{ color: 'white', textAlign: "center", color:"#fcbc05" }}>30 apps in 30 days</h1>
+            <h1 style={{ textAlign: "center", color:"#fcbc05" }}>30 apps in 30 days</h1>
             <div className="projects">
                 <div className="project1" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle1'>

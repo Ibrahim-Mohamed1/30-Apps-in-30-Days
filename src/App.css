@@ -52,7 +52,7 @@ body{
   .projects {
     grid-gap: 10px;
     text-align: center;
-    height: 80vh;
+    /* height: 100%; */
   }
   .projectInfo{
     text-align: center;
