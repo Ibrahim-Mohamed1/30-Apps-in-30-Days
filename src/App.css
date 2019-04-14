@@ -39,12 +39,12 @@ body{
   .button{
     color: lightgray;
     background-color: rgba(0, 0, 0, 0);
-    border: solid 1px #ff9450;
+    border: solid 1px #fcbc05;
     transition: ease-in;
     transition-duration: 1s;
   }
   .button:hover{
-    color: #ff9450;
+    color: #fcbc05;
     border: solid 1px gray;
     transition: ease-in;
     transition-duration: .5s;

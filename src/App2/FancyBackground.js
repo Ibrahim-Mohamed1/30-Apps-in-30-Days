@@ -4,7 +4,7 @@ class FancyBackground extends Component {
     render() {
         return (
             <div>
-                <h1 style={{color: "white", fontSize:"4em", fontFamily:"cursive"}}>EMMA ;P</h1>
+                <h1 style={{color: "white", fontSize:"4em", fontFamily:"cursive"}}>EMMA is bae af ;P</h1>
             </div>
         );
     }

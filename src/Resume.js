@@ -32,7 +32,7 @@ const Home = () => {
             width:"55%",
             marginBottom: "6em",
             boxShadow:"-5px 5px 5px grey",
-            border:"solid #ff9450",
+            border:"solid #fcbc05",
             marginTop: "3em",
             padding:".5%"
         },
@@ -52,7 +52,7 @@ const Home = () => {
                 <a style={{ marginRight: "auto" }} href="/"><img className="nav" style={styles.logo} src={logo} alt="" /></a>
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none" }} to="/">Home</Link></h3>
                 <h3 style={styles.navMargin}><a className="link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} href="http://ibrahim-mohamed-dev.surge.sh">Portfolio</a></h3>
-                <h3 className='nav' style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none", color: "#ff9450" }} to="/resume">Resume</Link></h3>
+                <h3 className='nav' style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none", color: "#fcbc05" }} to="/resume">Resume</Link></h3>
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06", marginRight: "3%" }}><Link className="link" style={{ textDecoration: "none" }} to="/contact">Contact</Link></h3>
             </div>
             <a href={pdf} download="Ibrahim Mohamed's Resume" style={{textDecoration:"none"}}><button className="button nav" style={{...styles.button}}>Download</button></a>

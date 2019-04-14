@@ -29,7 +29,7 @@ const Home = () => {
             borderRadius: 20
         },
         connect:{
-            color:"#ff9450",
+            color:"#fcbc05",
             textAlign:"center",
             marginTop: "1.5em",
             padding:'1%'
@@ -48,7 +48,7 @@ const Home = () => {
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none" }} to="/">Home</Link></h3>
                 <h3 style={styles.navMargin}><a className="link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} href="http://ibrahim-mohamed-dev.surge.sh">Portfolio</a></h3>
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none" }} to="/resume">Resume</Link></h3>
-                <h3 className='nav' style={{ ...styles.navMargin, color: "#fbbc06", marginRight: "3%" }}><Link className="link" style={{ textDecoration: "none", color: "#ff9450" }} to="/contact">Contact</Link></h3>
+                <h3 className='nav' style={{ ...styles.navMargin, color: "#fbbc06", marginRight: "3%" }}><Link className="link" style={{ textDecoration: "none", color: "#fcbc05" }} to="/contact">Contact</Link></h3>
             </div>
             <img style={styles.profilePic} src={profile} alt=""/>
             <h1 className="nav connect" style={{...styles.connect, cursor:"default"}}>Let's connect :)</h1>
@@ -57,9 +57,9 @@ const Home = () => {
                 <br/>
                 project idea to discuss? Email me 
                 <br/>
-                at <a style={{textDecoration: "none", color:"#ff9450"}} rel="noopener noreferrer" href="mailto:ibrahim.mohamed.dev@gmail.com">ibrahim.mohamed.dev@gmail.com</a>
+                at <a style={{textDecoration: "none", color:"#fcbc05"}} rel="noopener noreferrer" href="mailto:ibrahim.mohamed.dev@gmail.com">ibrahim.mohamed.dev@gmail.com</a>
                 <br/>
-                or message me on <a href="https://www.linkedin.com/in/ibrahim-mohamed-/" target="_blank" rel="noopener noreferrer"  style={{textDecoration: "none", color:"#ff9450"}}>LinkedIn</a>.
+                or message me on <a href="https://www.linkedin.com/in/ibrahim-mohamed-/" target="_blank" rel="noopener noreferrer"  style={{textDecoration: "none", color:"#fcbc05"}}>LinkedIn</a>.
             </h3>
         </>
     );
