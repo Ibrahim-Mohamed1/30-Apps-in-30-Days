@@ -5,16 +5,14 @@ import profile from "./profile.png"
 
 const Home = () => {
     const styles = {
-        parent: {
+        parent:{
             display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-around",
-            color: "white",
-            padding: "1%"
+            flexDirection:"row",
+            justifyContent:"space-between",
+            padding: 10
         },
-        logo: {
-            width: 50,
-            height: 50,
+        logo:{
+            width: 40,
             marginRight: "auto"
         },
         navMargin: {
@@ -47,7 +45,7 @@ const Home = () => {
                 <a style={{ marginRight: "auto" }} href="/"><img className="nav" style={styles.logo} src={logo} alt="" /></a>
                 <h3 style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none" }} to="/">Home</Link></h3>
                 <h3 style={styles.navMargin}><a className="link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }} href="http://ibrahim-mohamed-dev.surge.sh">Portfolio</a></h3>
-                <h3 style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none" }} to="/resume">Resume</Link></h3>
+                <h3 style={{ ...styles.navMargin, color: "#fbbc06" }}><Link className="link" style={{ textDecoration: "none" }} to="/skills">Skills</Link></h3>
                 <h3 className='nav' style={{ ...styles.navMargin, color: "#fbbc06", marginRight: "3%" }}><Link className="link" style={{ textDecoration: "none", color: "#fcbc05" }} to="/contact">Contact</Link></h3>
             </div>
             <img style={styles.profilePic} src={profile} alt=""/>

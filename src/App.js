@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom"
 import "./App.css"
 import Home from './Home'
 import Contact from "./Contact"
-import Resume from "./Resume"
+import Skills from "./Skills"
 import FancyBackground from './App2/FancyBackground';
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/skills" component={Skills} />
         <Route path="/fancy background" component={FancyBackground}/>
       </Switch>
     </div>
