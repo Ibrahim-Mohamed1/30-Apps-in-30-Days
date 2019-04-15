@@ -46,8 +46,8 @@ const Resume = () => {
             <div style={styles.parent}>
                 <a style={{marginRight: "auto"}} href="/"><img className="nav" style={styles.logo} src={logo} alt=""/></a>
                 <h3  style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none"}} to="/">Home</Link></h3>
-                <h3  style={styles.navMargin}><Link className="link" style={{ textDecoration: "none"}}  to="/projects">Projects</Link></h3>
-                <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link" style={{ textDecoration: "none", color:"#fcbc05"}} to="/skills">Skills</Link></h3>
+                <h3  style={styles.navMargin}><a className="link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}}  href="http://ibrahim-mohamed-dev.surge.sh">Portfolio</a></h3>
+                <h3 className='nav' style={{...styles.navMargin, color:"#fbbc06"}}><Link className="link"style={{ textDecoration: "none", color:"#fcbc05"}} to="/skills">Skills</Link></h3>
                 <h3  style={{...styles.navMargin, color:"#fbbc06", marginRight:"3%"}}><Link className="link" style={{ textDecoration: "none"}} to="/contact">Contact</Link></h3>
             </div>
             {/* <br/> */}
