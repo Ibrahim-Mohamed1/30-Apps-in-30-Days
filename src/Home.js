@@ -45,13 +45,14 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project2" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-2-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>2. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>2. Cute Cats</h1>
                                 <h4>
+                                    An endless fun of cat images from the cat API!
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>

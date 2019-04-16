@@ -111,11 +111,10 @@ body{
     cursor: "pointer";
   }
   .project1{
-    background-image: url(./homepage.png);
+    background-image: url(./images/app1.png);
   }
   .project2{
-    background-image: url();
-    background-color: darkgray;
+    background-image: url(./images/app2.png);
   }
   .project3{
     background-image: url();
