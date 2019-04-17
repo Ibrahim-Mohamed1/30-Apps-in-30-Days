@@ -52,7 +52,7 @@ const Home = () => {
                                 <h4>
                                     An endless fun of cat images from the cat API!
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, HTML, & CSS.</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, Cats API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
@@ -63,19 +63,20 @@ const Home = () => {
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>3. Weather Time</h1>
                                 <h4> Simple weather app to quickly allow a user to access weather in any zip code in the United States.</h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, HTML, & CSS.</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, OpenWeather API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className="project4" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle'>
-                        <a href="/">
+                        <a href="http://app-3-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>4. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>4. Artist Finder</h1>
                                 <h4>
+                                    Simple app to help users find artists similar to the ones they are currently listening to.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, TasteDive API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
