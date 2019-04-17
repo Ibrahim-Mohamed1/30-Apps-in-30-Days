@@ -58,13 +58,12 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project3" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-3-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>3. Coming Soon...</h1>
-                                <h4>
-                                </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>3. Weather Time</h1>
+                                <h4> Simple weather app to quickly allow a user to access weather in any zip code in the United States.</h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
