@@ -69,7 +69,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project4" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
+                    <div className='middle1'>
                         <a href="http://app-3-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>4. Artist Finder</h1>
