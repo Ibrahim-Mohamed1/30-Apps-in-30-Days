@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
                 <div className="project4" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle1'>
-                        <a href="http://app-3-of-30.surge.sh/">
+                        <a href="http://app-4-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>4. Artist Finder</h1>
                                 <h4>
@@ -82,25 +82,27 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project5" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-5-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>5. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>5. Show Finder</h1>
                                 <h4>
+                                    Simple app to help users find shows similar to the ones they are currently watching to.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, TasteDive API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className="project6" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-6-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>6. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>6. Color Picker</h1>
                                 <h4>
+                                Simple app to help users find the perfect color if they are having a hard time finding a color.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
