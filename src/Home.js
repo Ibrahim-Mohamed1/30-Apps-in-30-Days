@@ -87,7 +87,7 @@ const Home = () => {
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>5. Show Finder</h1>
                                 <h4>
-                                    Simple app to help users find shows similar to the ones they are currently watching to.
+                                    Simple app to help users find shows similar to the ones they are currently watching.
                                 </h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, TasteDive API, HTML, & CSS.</p>
                             </div>
