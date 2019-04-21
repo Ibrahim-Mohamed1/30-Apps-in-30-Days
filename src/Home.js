@@ -108,13 +108,14 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project7" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-7-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>7. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>7. NBA Playoffs Schedule</h1>
                                 <h4>
+                                Simple app to help users keep up to date with the 2018-2019 NBA Playoff season.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, BallDontLie API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
