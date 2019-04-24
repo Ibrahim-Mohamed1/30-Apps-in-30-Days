@@ -36,9 +36,7 @@ const Home = () => {
                         <a href="/">
                             <div className='projectInfo' style={{ marginTop: "-1em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>1. Homepage</h1>
-                                <h4>
-                                    Homepage for this AWESOME challenge!
-                                </h4>
+                                <h4>Homepage for this AWESOME challenge!</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, HTML, & CSS.</p>
                             </div>
                         </a>
@@ -49,9 +47,7 @@ const Home = () => {
                         <a href="http://app-2-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>2. Cute Cats</h1>
-                                <h4>
-                                    An endless fun of cat images from the cat API!
-                                </h4>
+                                <h4>An endless fun of cat images from the cat API!</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, Cats API, HTML, & CSS.</p>
                             </div>
                         </a>
@@ -73,9 +69,7 @@ const Home = () => {
                         <a href="http://app-4-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>4. Artist Finder</h1>
-                                <h4>
-                                    Simple app to help users find artists similar to the ones they are currently listening to.
-                                </h4>
+                                <h4>Simple app to help users find artists similar to the ones they are currently listening to.</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, TasteDive API, HTML, & CSS.</p>
                             </div>
                         </a>
@@ -86,9 +80,7 @@ const Home = () => {
                         <a href="http://app-5-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>5. Show Finder</h1>
-                                <h4>
-                                    Simple app to help users find shows similar to the ones they are currently watching.
-                                </h4>
+                                <h4>Simple app to help users find shows similar to the ones they are currently watching.</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, TasteDive API, HTML, & CSS.</p>
                             </div>
                         </a>
@@ -99,9 +91,7 @@ const Home = () => {
                         <a href="http://app-6-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>6. Color Picker</h1>
-                                <h4>
-                                Simple app to help users find the perfect color if they are having a hard time finding a color.
-                                </h4>
+                                <h4>Simple app to help users find the perfect color if they are having a hard time finding a color.</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, HTML, & CSS.</p>
                             </div>
                         </a>
@@ -112,9 +102,7 @@ const Home = () => {
                         <a href="http://app-7-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>7. NBA Playoffs Schedule</h1>
-                                <h4>
-                                Simple app to help users keep up to date with the 2018-2019 NBA Playoff season.
-                                </h4>
+                                <h4>Simple app to help users keep up to date with the 2018-2019 NBA Playoff season.</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, BallDontLie API, HTML, & CSS.</p>
                             </div>
                         </a>
@@ -125,34 +113,30 @@ const Home = () => {
                         <a href="http://app-8-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>8. Best Advice</h1>
-                                <h4>
-                                Simple advice app to help users with decisions making.
-                                </h4>
+                                <h4>Simple advice app to humor users with fun realistic/funny life advice.</h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, Advice Slip API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className="project9" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-9-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>9. Coming Soon...</h1>
-                                <h4>
-                                </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>9. Best Dad Jokes</h1>
+                                <h4>Simple dad jokes app to help users smile by reading some awful dad jokes.</h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, Dad Jokes API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className="project10" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-10-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>10. Coming Soon...</h1>
-                                <h4>
-                                </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>10. Dogo World</h1>
+                                <h4>Simple dog rating app that puts smiles on users by looking at cute dogos.</h4>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, Axios, Dog API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
