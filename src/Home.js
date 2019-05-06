@@ -275,10 +275,11 @@ const Home = () => {
                     <div className='middle1'>
                         <a href="http://app-21-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>21. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>21. Logo Finder</h1>
                                 <h4>
+                                Simple app that helps users find company logos to implement into their projects
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Clearbit Logo API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
