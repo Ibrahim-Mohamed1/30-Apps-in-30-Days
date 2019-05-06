@@ -253,7 +253,7 @@ const Home = () => {
                                 <h4>
                                 Simple fake id app that users can engage with.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Jokes API, HTML, & CSS.</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, UI Names API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
@@ -262,10 +262,11 @@ const Home = () => {
                     <div className='middle1'>
                         <a href="http://app-20-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>20. Coming Soon...</h1>
+                                <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>20. Find My IP Address</h1>
                                 <h4>
+                                Simple app to help users quickly figure out their ip address.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Ipify API, HTML, & CSS.</p>
                             </div>
                         </a>
                     </div>
