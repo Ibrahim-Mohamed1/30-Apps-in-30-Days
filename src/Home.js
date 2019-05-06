@@ -290,6 +290,7 @@ const Home = () => {
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h1 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>22. Coming Soon...</h1>
                                 <h4>
+                                    
                                 </h4>
                                 <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
                             </div>
