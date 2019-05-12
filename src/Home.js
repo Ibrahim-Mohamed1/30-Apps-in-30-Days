@@ -334,13 +334,15 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project24" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-23-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>24. Coming Soon...</h2>
+                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>24. Lyric Finder!</h2>
                                 <h4>
+                                Simple lyric app to help users practice singing along to their favorite songs.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Lyric API, HTML, & CSS.</p>
+                                <p style={{ margin: 0, marginRight: 5 }}>Made: 05/7/2019</p>
                             </div>
                         </a>
                     </div>
