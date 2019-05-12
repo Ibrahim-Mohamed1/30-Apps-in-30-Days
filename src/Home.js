@@ -348,13 +348,15 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project25" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-25-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>25. Coming Soon...</h2>
+                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>25. Domain Finder</h2>
                                 <h4>
+                                Simple app that checks the availability of a users desired domain.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>avaScript, React, JSX, Axios, Domain API, HTML, & CSS.</p>
+                                <p style={{ margin: 0, marginRight: 5 }}>Made: 05/8/2019</p>
                             </div>
                         </a>
                     </div>
