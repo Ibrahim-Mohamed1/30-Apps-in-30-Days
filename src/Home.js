@@ -355,20 +355,22 @@ const Home = () => {
                                 <h4>
                                 Simple app that checks the availability of a users desired domain.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>avaScript, React, JSX, Axios, Domain API, HTML, & CSS.</p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Domain API, HTML, & CSS.</p>
                                 <p style={{ margin: 0, marginRight: 5 }}>Made: 05/8/2019</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div className="project26" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-26-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>26. Coming Soon...</h2>
+                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>26. Slang & Hang</h2>
                                 <h4>
+                                Simple app to help users understand the slang of todays teens.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Urban Dictionary API, HTML, & CSS.</p>
+                                <p style={{ margin: 0, marginRight: 5 }}>Made: 05/9/2019</p>
                             </div>
                         </a>
                     </div>
