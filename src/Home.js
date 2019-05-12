@@ -335,7 +335,7 @@ const Home = () => {
                 </div>
                 <div className="project24" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
                     <div className='middle1'>
-                        <a href="http://app-23-of-30.surge.sh/">
+                        <a href="http://app-24-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>24. Lyric Finder!</h2>
                                 <h4>
