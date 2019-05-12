@@ -376,13 +376,15 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project27" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-27-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>27. Coming Soon...</h2>
+                                <h2 className="nav" style={{ color: "#fcbc05", padding: "2%" }}>27. Love Calculator</h2>
                                 <h4>
+                                Simple app that checks the probability of a user and their crushes compatibility.
                                 </h4>
-                                <p style={{ color: "lime", padding: "5%", margin: 0 }}></p>
+                                <p style={{ color: "lime", padding: "5%", margin: 0 }}>JavaScript, React, JSX, Axios, Love Calculator API, HTML, & CSS.</p>
+                                <p style={{ margin: 0, marginRight: 5 }}>Made: 05/10/2019</p>
                             </div>
                         </a>
                     </div>
