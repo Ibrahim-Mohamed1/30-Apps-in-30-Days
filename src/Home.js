@@ -423,6 +423,7 @@ const Home = () => {
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
                                 <h2 className="nav" style={{marginTop: 0, color: "#fcbc05", padding: "2%" }}>30. Worst Insults</h2>
                                 <h4 style={{padding: 5}}>
+                                Simple app to amuse users with the webs worst insults.
                                 </h4>
                                 <p style={{ color: "lime", padding: 5 }}>JavaScript, React, JSX, Axios, Insult API, HTML, & CSS.</p>
                                 <p style={{ margin: 0, marginRight: 5 }}>Made: 05/13/2019</p>
