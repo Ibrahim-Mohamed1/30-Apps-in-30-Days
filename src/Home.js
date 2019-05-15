@@ -418,13 +418,14 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="project30" style={{ cursor: "pointer", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: "vh" }}>
-                    <div className='middle'>
-                        <a href="/">
+                    <div className='middle1'>
+                        <a href="http://app-30-of-30.surge.sh/">
                             <div className='projectInfo' style={{ marginTop: "-1.5em" }}>
-                                <h2 className="nav" style={{marginTop: 0, color: "#fcbc05", padding: "2%" }}>30. Coming Soon...</h2>
+                                <h2 className="nav" style={{marginTop: 0, color: "#fcbc05", padding: "2%" }}>30. Worst Insults</h2>
                                 <h4 style={{padding: 5}}>
                                 </h4>
-                                <p style={{ color: "lime", padding: 5 }}></p>
+                                <p style={{ color: "lime", padding: 5 }}>JavaScript, React, JSX, Axios, Insult API, HTML, & CSS.</p>
+                                <p style={{ margin: 0, marginRight: 5 }}>Made: 05/13/2019</p>
                             </div>
                         </a>
                     </div>
